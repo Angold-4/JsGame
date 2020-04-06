@@ -5,3 +5,4 @@
 <p>Then enjoy the game with your mouse :-)<p>
 <h6>Create by wange in 04052020</h6>
 <p>Hope your guys enjoy!:-)</P>
+<img src="titles.png">
