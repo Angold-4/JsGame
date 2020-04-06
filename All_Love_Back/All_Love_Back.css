@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#game{
+	width: 500px;
+	height: 600px;
+	background: url(bgr.png); 
+	margin: 50px auto;
+	overflow: hidden;
+	position: relative;
+}
+#gamestart{
+	height: 100%;
+	position: relative;
+}
+#head{
+	width: 459px;
+	height: 91px;
+	background: url(title.gif);
+	position: absolute;
+	top: 50px;
+}
+
+#headtitle{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	bottom: 100px;
+	left: 180px;
+	animation: wg 0.2s linear infinite alternate;
+	-o-animation: wg 0.2s linear infinite alternate;
+	-moz-animation: wg 0.2s linear infinite alternate;
+	-webkit-animation: wg 0.2s linear infinite alternate;
+}
+@keyframes wg{
+	from{top: 465px;}
+	to{top: 467px;}
+}
+@-o-keyframes wg{
+	from{top: 465px;}
+	to{top: 467px;}
+}
+@-moz-keyframes wg{
+	from{top: 465px;}
+	to{top: 467px;}
+}
+@-webkit-keyframes wg{
+	from{top: 465px;}
+	to{top: 467px;}
+}
+#enter{
+	width: 300px;
+	height: 70px;
+	background: url(start.png);
+	position: absolute;
+	top: 330px;
+	left: 80px;
+	cursor: pointer;
+}
+#ground{
+	width: 200%;
+	height: 40px;
+	background: url(ground.png);
+	position: absolute;
+	left:0;
+	bottom: -4px;
+	animation: linemove 5s linear infinite normal;
+	-o-animation: linemove 5s linear infinite normal;
+	-moz-animation: linemove 5s linear infinite normal;
+	-webkit-animation: linemove 5s linear infinite normal;
+}
+@keyframes linemove{
+	from{left: 0;}
+	to{left: -500px;}
+}
+
+@-o-keyframes linemove{
+	from{left: 0;}
+	to{left: -500px;}
+}
+
+@-moz-keyframes linemove{
+	from{left: 0;}
+	to{left: -500px;}
+}
+
+@-webkit-keyframes linemove{
+	from{left: 0;}
+	to{left: -500px;}
+}
+
+#gameenter{
+	height: 100%;
+	cursor: pointer;
+	position: relative;
+	display: none;
+}
+#wa{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 70px;
+	top: 240px;
+	z-index: 999;
+
+}
+
+
+#pipes{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left:0;
+	top:0;
+}
+#pipes .pipe1{
+	width: 80px;
+	height: 100%;
+	position: absolute;
+	left: 500px;
+	z-index: 99;
+}
+#pipes .pipe1 .up{
+}
+
+#pipes .pipe1 .up .up_mod{
+	background: url(pipel1up.png);
+}
+
+#pipes .pipe1 .up .up_pipe{
+	height: 144px;
+	background: url(pipeup1.png);
+}
+
+#pipes .pipe1 .down{
+	margin-top: 140px;
+}
+
+#pipes .pipe1 .down .down_pipe{
+	height: 144px;
+    background: url(pipedown1.png);
+}
+
+#pipes .pipe1 .down .down_mod{
+	background: url(pipel1down.png);
+}
+
+#scores{
+	font-family:fantasy;
+	font-size: 60px;
+	height: 70px;
+	font-weight:bolder;
+	color: orange;
+	line-height: 60px;
+	position: absolute;
+	left: 235px;
+	z-index: 9999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
