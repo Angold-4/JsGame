@@ -1,4 +1,4 @@
-# JsGame
+# ILoveBigPlane
 <p>A Javascript Game</p>
 <p>After enter the game, Please click the big Plane with 3 rockets in title to enter the game.</p>
 <p>Then Tap "Space" to start the game in your Computer.</p>
