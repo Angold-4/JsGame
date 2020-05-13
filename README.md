@@ -1,6 +1,10 @@
-# JsGame
-Javascript Game
-<h1 style="background-color:DodgerBlue;">Welcome :-)</h1>
-<p>here are some games that I made for study</p>
-<p>You just need to download them freely if you want</p>
-<h2 style="background-color:Tomato;">Hope your guys enjoy!</h2>
+# JSGame
+
+**Here are the game that for me to learn Javascript**
+
+![All_Love_Back](https://github.com/Angold-4/JsGame/All_Love_Back/title.gif)
+### [Game Enter](https://angold-4.github.io/JsGame/All_Love_Back/All_love_Back.html)
+
+
+![I_Like_Big_Plane](https://github.com/Angold-4/JsGame/ILoveBigPlane/title.gif)
+### [Game Enter]((https://angold-4.github.io/JsGame/ILoveBigPlane/ILikebigplane.html)
